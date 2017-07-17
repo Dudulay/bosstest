@@ -15,128 +15,173 @@ a{
  	overflow: hidden;
  	clear: both;
 } */
-.map{
-	height: 100%;
-}
 .top{
-	height: 68px;
+	height: 60px;
 }
 .top_page{
-	height: 68px;
-	width: 1123px;
+	height: 60px;
+	width: 1170px;
 	margin: 0 auto;
 	border-bottom: 2px solid #fff;
 }
 .top_page_l{
-	line-height: 68px;
+	line-height: 60px;
 } 
+.bosstop{
+	width: 170px;
+	height: 24px;
+	background: url(../images/logo-x.png);
+	/* margin-top: 17px; */
+	margin:17px 0 19px 0;
+	display: inline-block;
+	text-indent: -1000em;
+
+}
 .top_page_r{
-	line-height: 68px;
+	line-height: 60px;
 } 
+.btn-outline{
+	border-radius: 15px;
+	border: 1px #5dd5c8 solid;
+	text-align: center;
+    font-size: 14px;
+    padding: 0 9px 0 11px;
+    min-width: 0;
+    margin-left: 17px;
+    color: #9fa3b0;
+}
 .top_page_l ul li{
 	float: left;
 	padding-left: 65px;
 }
-
-.content{
-	width:1123px;
+.parttwo{
+	background-color: #F2F2F5;
+}
+.parttwo .content{
+	width:1170px;
 	margin: 0 auto;
 }
-.content .content_l{
-	width: 309px;
-	height: 1267px;
+.content_l{
+	width: 300px;
+	height: 1215px;
 	background-color: #F8F9FB;
 }
 
-.content .content_l .menu dl{
+.content_l .menu dl{
 	padding-top: 30px;
 }
-.content .content_l .menu dl dt{
+.content_l .menu dl dt{
 	padding-left: 34px;
 	font-size: 20px;
 }
-.content .content_l .menu dl dd{
+.content_l .menu dl dd{
 	padding-left: 34px;
 	font-size: 14px;
 	padding-top: 23px;
 	padding-right: 30px;
 }
-.content .content_l .menu a{
+.content_l .menu a{
 	padding-right: 15px;
 }
-
-.content .content_r{
-	width: 814px;
+.content_r{
+	width: 840px;
 	background-color: #F2F2F5;
 }
-.content .content_r .content_r_top input{
-	width:592px;
+.content_r_top{
+	margin-top: 20px;
 	height: 50px;
-	margin: 25px 0 0 32px;
 }
-.content .content_r .content_r_top select{
-	width:186px;
-	height: 54px;
+.content_r_top input{
+	width:565px;
+	height: 50px;
+	/* margin: 25px 0 0 30px; */
+	/* margin-top: 25px; */
+	float: left;
+	border-right: 1px solid #F2F2F5;
+}
+.content_r_top select{
+	width:215px;
+	height: 50px;
 	float: right;
-	margin-top: 25px; 
+	/* margin-top: 25px; */ 
+	float: left;
+
 }
-.content .content_r .content_r_word{
-	height: 60px;
+.content_r_top button{
+	background-color: #55CBC4;
+	height: 50px;
+	width: 55px;
+	float: left;
+	color: #FFF;
+	font-size: 14px;
+	/* margin-top: 25px; */
+
 }
-.content .content_r .content_r_word .hot{
-	line-height: 60px;
+.content_r_word{
+	height: 58px;
+	color: #9FA3BF;
+}
+.content_r_word .hot{
+	line-height: 58px;
 	padding-right: 9px;
-	padding-left: 32px;
+	/* padding-left: 32px; */
 }
-.content .content_r .content_r_word ul li{
+ .content_r_word ul li{
 	float: left;
 	line-height: 60px;
 	padding-right: 25px;
+	
 }
-.content .content_r .content_r_img{
-	height: 366px;
-	border:1px solid #000;
+.content_r_word ul li a{
+	color: #9FA3BF;
 }
-.content .content_r .content_r_work{
+.content_r_img{
+	height: 352px;
+	/* border:1px solid #000; */
+}
+.content_r_work{
 	height: 1111px;
-	padding-left: 32px;
+	/* padding-left: 32px; */
 }
-.content .content_r .content_r_work .work{
+.content_r_work .work{
 	height: 158px;
 	background-color: #FFFFFF;
 	border-bottom: 1px solid #F2F2F5;
 }
-.content .content_r .content_r_work .work .job{
+.content_r_work .work:hover{
+	background-color: #F8F9FB;
+}
+.content_r_work .work .job{
 	padding-top: 27px;
 	padding-left: 42px;
 	font-size: 20px;
 }
-.content .content_r .content_r_work .work .money{
+.content_r_work .work .money{
 	padding-top: 19px;
 	padding-left: 42px;
 	font-size: 16px;
 	color: #FC703E;
 }
-.content .content_r .content_r_work .work .years{
+.content_r_work .work .years{
 	padding-top: 19px;
 	padding-left: 42px;
 	font-size: 16px;
 }
-.content .content_r .content_r_work .work .years span{
+.content_r_work .work .years span{
 	padding-right: 10px;
 }
-.content .content_r .content_r_work .work .company{
+.content_r_work .work .company{
 	padding-top: 9px;
 	padding-right: 10px;
 }
-.content .content_r .all{
+.content_r .all{
 	height: 52px;
-	width: 814px;
+	/* width: 814px; */
 	line-height: 52px;
 	text-align: center;
 	background-color: #D4D5DA;
 }
-.content .content_r .all:hover{
+.content_r .all:hover{
 	background-color: #A8ACB7
 }
 .bottom{
