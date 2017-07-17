@@ -2,152 +2,186 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>仿BOSS直聘网首页</title>
 	<link rel="stylesheet" type="text/css" href="css/cssReset.css">
 	<link rel="stylesheet" href="css/index.css">
 	<link rel="stylesheet" href="css/common.css">
 </head>
 <body>
-	<div class="map">
-		<div class="top">
+	<div class="top">
 		<div class="top_page">
 			<div class="top_page_l fl">
-			    
-				<ul>
-					<li><a href="#">首页</a></li>
-					<li><a href="#">求职</a></li>
-					<li><a href="#">app</a></li>
-					<li><a href="#">新闻</a></li>
-				</ul>
+				<h1 class="bosstop fl">BOSS直聘</h1>
+				    <!-- <a href="javascript:;" title="BOSS直聘"><span>BOSS直聘</span></a> -->
+				    <div class="nav fl">
+				    	<ul>
+							<li><a href="#">首页</a></li>
+							<li><a href="#">求职</a></li>
+							<li><a href="#">APP</a></li>
+							<li><a href="#">新闻</a></li>
+						</ul>
+				    </div>
 			</div>
-			<div class="top_page_r fr">Boss扫描登录</div>
+			<div class="top_page_r fr">
+				<a href="#">Boss扫描登录</a>
+				<a href="#" class="btn-outline">注册</a>
+				<a href="#" class="btn-outline">登录</a>
+			</div>
 		</div>
 	</div>
 
-	<div class="content ">
-		<div class="content_l fl">
-			<div class="menu">
-				<dl>
-					<dt>所有行业</dt>
-					<dd><a href="#" >互联网</a> <a href="#" >移动互联网</a> <a href="#">传媒</a> <a href="#">金融</a><a href="#">教育</a><a href="#">房地产</a> <a href="#">汽车</a> <a href="#">供应链</a>
-					</dd>
-				</dl>
-				<dl>
-					<dt>技术</dt>
-					<dd><a href="#">Java</a> <a href="#">PHP</a> <a href="#">Web前端</a> <a href="#">数据挖掘</a></dd>
-				</dl>
-				<dl>
-					<dt>产品</dt>
-					<dd><a href="#">产品经理</a> <a href="#">产品总监</a> <a href="#">数据产品经理</a></dd>
-				</dl>
-				<dl>
-					<dt>设计</dt>
-					<dd><a href="#">UI设计师</a> <a href="#">平面设计师</a> <a href="#">网页设计师</a></dd>
-				</dl>
-				<dl>
-					<dt>运营</dt>
-					<dd><a href="#">新媒体运营</a> <a href="#">产品运营</a> <a href="#">运营经理</a></dd>
-				</dl>
-				<dl>
-					<dt>市场</dt>
-					<dd><a href="#">市场营销</a> <a href="#">市场推广</a> <a href="#">市场策划</a></dd>
-				</dl>
-				<dl>
-					<dt>职能高级管理</dt>
-					<dd><a href="#">人事/HR</a><a href="#">行政</a><a href="#">财务</a><a href="#">HRBP</a></dd>
-				</dl>
-				<dl>
-					<dt>销售</dt>
-					<dd><a href="#">销售专员</a><a href="#">销售经理</a><a href="#">销售总监</a></dd>
-				</dl>
-				<dl>
-					<dt>传媒</dt>
-					<dd><a href="#">文案</a></dd>
-				</dl>
-				<dl>
-					<dt>金融</dt>
-				</dl>
-				<dl>
-					<dt>其他行业</dt>
-				</dl>
+	<div class="parttwo">
+		<div class="content ">
+			<div class="content_l fl">
+				<div class="menu">
+					<dl>
+						<dt>所有行业 </dt>
+						<dd><a href="#" >互联网</a> <a href="#" >移动互联网</a> <a href="#">传媒</a> <a href="#">金融</a><a href="#">教育</a><a href="#">房地产</a> <a href="#">汽车</a> <a href="#">供应链</a>
+						</dd>
+					</dl>
+					<dl>
+						<dt>技术</dt>
+						<dd><a href="#">Java</a> <a href="#">PHP</a> <a href="#">Web前端</a> <a href="#">数据挖掘</a></dd>
+					</dl>
+					<dl>
+						<dt>产品</dt>
+						<dd><a href="#">产品经理</a> <a href="#">产品总监</a> <a href="#">数据产品经理</a></dd>
+					</dl>
+					<dl>
+						<dt>设计</dt>
+						<dd><a href="#">UI设计师</a> <a href="#">平面设计师</a> <a href="#">网页设计师</a></dd>
+					</dl>
+					<dl>
+						<dt>运营</dt>
+						<dd><a href="#">新媒体运营</a> <a href="#">产品运营</a> <a href="#">运营经理</a></dd>
+					</dl>
+					<dl>
+						<dt>市场</dt>
+						<dd><a href="#">市场营销</a> <a href="#">市场推广</a> <a href="#">市场策划</a></dd>
+					</dl>
+					<dl>
+						<dt>职能高级管理</dt>
+						<dd><a href="#">人事/HR</a><a href="#">行政</a><a href="#">财务</a><a href="#">HRBP</a></dd>
+					</dl>
+					<dl>
+						<dt>销售</dt>
+						<dd><a href="#">销售专员</a><a href="#">销售经理</a><a href="#">销售总监</a></dd>
+					</dl>
+					<dl>
+						<dt>传媒</dt>
+						<dd><a href="#">文案</a></dd>
+					</dl>
+					<dl>
+						<dt>金融</dt>
+					</dl>
+					<dl>
+						<dt>其他行业</dt>
+					</dl>
+				</div>
 			</div>
+			<div class="content_r fr">
+				<div class="content_r_top">
+					<input type="text" name="search" placeholder="搜索职位、公司">
+					<select class="selectcity ">
+						<option value="北京">北京</option>
+						<option value="北京">北京</option>
+						<option value="北京">北京</option>
+					</select>
+					<button >搜索</button>
+				</div>
+				<div class="content_r_word"><span class="hot fl">热门职位：</span>
+					<ul>
+						<li><a href="#">java</a></li>
+						<li><a href="#">PHP</a></li>
+						<li><a href="#">C++</a></li>
+						<li><a href="#">Web前端</a></li>
+						<li><a href="#">iOS</a></li>
+						<li><a href="#">Android</a></li>
+						<li><a href="#">产品经理</a></li>
+						<li><a href="#">UI设计师</a></li>
+						<li><a href="#">产品运营</a></li>
+					</ul>
+				</div>
+				<div class="content_r_img">
+					<img src="images/banner.jpg" usemap="#bannermap" alt="导航图" >
+					<map name="bannermap" id="bannermap">
+						<area shape="rect" coords="0,0,280,116" href="#" alt="华为">
+						<area shape="rect" coords="280,0,560,116" href="#" alt="联想">
+						<area shape="rect" coords="560,0,840,116" href="#" alt="财务">
+						<area shape="rect" coords="0,118,560,234" href="#" alt="众联">
+						<area shape="rect" coords="560,118,840,234" href="#" alt="搜狐">
+						<area shape="rect" coords="0,236,280,352" href="#" alt="携程">
+						<area shape="rect" coords="280,236,560,352" href="#" alt="去哪儿">
+						<area shape="rect" coords="560,236,840,352" href="#" alt="法务">
+					</map>
+				</div>
+				<div class="content_r_work">
+					<a href="#">
+						<div class="work">
+							<div class="job">中级Java开发工程师</div>
+							<div class="company fr">阿里巴巴</div>
+							<div class="money">10K-20K</div>
+							<div class="years">北京&nbsp;|&nbsp;1-3年&nbsp;|&nbsp;本科 <span class="fr">互联网</span></div>
+						</div>
+					</a>
+					
+					<a href="#">
+						<div class="work">
+							<div class="job">中级Java开发工程师</div>
+							<div class="company fr">阿里巴巴</div>
+							<div class="money">10K-20K</div>
+							<div class="years">北京&nbsp;|&nbsp;1-3年&nbsp;|&nbsp;本科 <span class="fr">互联网</span></div>
+						</div>
+					</a>
+					<a href="#">
+						<div class="work">
+							<div class="job">中级Java开发工程师</div>
+							<div class="company fr">阿里巴巴</div>
+							<div class="money">10K-20K</div>
+							<div class="years">北京&nbsp;|&nbsp;1-3年&nbsp;|&nbsp;本科 <span class="fr">互联网</span></div>
+						</div>
+					</a>
+					<a href="#">
+						<div class="work">
+							<div class="job">中级Java开发工程师</div>
+							<div class="company fr">阿里巴巴</div>
+							<div class="money">10K-20K</div>
+							<div class="years">北京&nbsp;|&nbsp;1-3年&nbsp;|&nbsp;本科 <span class="fr">互联网</span></div>
+						</div>
+					</a>
+					<a href="#">
+						<div class="work">
+							<div class="job">中级Java开发工程师</div>
+							<div class="company fr">阿里巴巴</div>
+							<div class="money">10K-20K</div>
+							<div class="years">北京&nbsp;|&nbsp;1-3年&nbsp;|&nbsp;本科 <span class="fr">互联网</span></div>
+						</div>
+					</a>
+					<a href="#">
+						<div class="work">
+							<div class="job">中级Java开发工程师</div>
+							<div class="company fr">阿里巴巴</div>
+							<div class="money">10K-20K</div>
+							<div class="years">北京&nbsp;|&nbsp;1-3年&nbsp;|&nbsp;本科 <span class="fr">互联网</span></div>
+						</div>
+					</a>
+					<a href="#">
+						<div class="work">
+							<div class="job">中级Java开发工程师</div>
+							<div class="company fr">阿里巴巴</div>
+							<div class="money">10K-20K</div>
+							<div class="years">北京&nbsp;|&nbsp;1-3年&nbsp;|&nbsp;本科 <span class="fr">互联网</span></div>
+						</div>
+					</a>
+				</div>
+				<a href="#"><div class="all">全部职位</div></a>
+			</div>
+			<div class="clear"></div>
 		</div>
-		<div class="content_r fr">
-			<div class="content_r_top">
-				<input type="text" name="search" placeholder="搜索职位、公司">
-				<select class="selectcity ">
-					<option value="北京">北京</option>
-					<option value="北京">北京</option>
-					<option value="北京">北京</option>
-				</select>
-			</div>
-			<div class="content_r_word"><span class="hot fl">热门职位：</span>
-				<ul>
-					<li><a href="#">java</a></li>
-					<li><a href="#">PHP</a></li>
-					<li><a href="#">C++</a></li>
-					<li><a href="#">Web前端</a></li>
-					<li><a href="#">iOS</a></li>
-					<li><a href="#">Android</a></li>
-					<li><a href="#">产品经理</a></li>
-					<li><a href="#">UI设计师</a></li>
-					<li><a href="#">产品运营</a></li>
-				</ul>
-			</div>
-			<div class="content_r_img"></div>
-			<div class="content_r_work">
-				<div class="work">
-					<div class="job">中级Java开发工程师</div>
-					<div class="company fr">阿里巴巴</div>
-					<div class="money">10K-20K</div>
-					<div class="years">北京&nbsp;|&nbsp;1-3年&nbsp;|&nbsp;本科 <span class="fr">互联网</span></div>
-				</div>
-				<div class="work">
-					<div class="job">中级Java开发工程师</div>
-					<div class="company fr">阿里巴巴</div>
-					<div class="money">10K-20K</div>
-					<div class="years">北京&nbsp;|&nbsp;1-3年&nbsp;|&nbsp;本科 <span class="fr">互联网</span></div>
-				</div>
-				<div class="work">
-					<div class="job">中级Java开发工程师</div>
-					<div class="company fr">阿里巴巴</div>
-					<div class="money">10K-20K</div>
-					<div class="years">北京&nbsp;|&nbsp;1-3年&nbsp;|&nbsp;本科 <span class="fr">互联网</span></div>
-				</div>
-				<div class="work">
-					<div class="job">中级Java开发工程师</div>
-					<div class="company fr">阿里巴巴</div>
-					<div class="money">10K-20K</div>
-					<div class="years">北京&nbsp;|&nbsp;1-3年&nbsp;|&nbsp;本科 <span class="fr">互联网</span></div>
-				</div>
-				<div class="work">
-					<div class="job">中级Java开发工程师</div>
-					<div class="company fr">阿里巴巴</div>
-					<div class="money">10K-20K</div>
-					<div class="years">北京&nbsp;|&nbsp;1-3年&nbsp;|&nbsp;本科 <span class="fr">互联网</span></div>
-				</div>
-				<div class="work">
-					<div class="job">中级Java开发工程师</div>
-					<div class="company fr">阿里巴巴</div>
-					<div class="money">10K-20K</div>
-					<div class="years">北京&nbsp;|&nbsp;1-3年&nbsp;|&nbsp;本科 <span class="fr">互联网</span></div>
-				</div>
-				<div class="work">
-					<div class="job">中级Java开发工程师</div>
-					<div class="company fr">阿里巴巴</div>
-					<div class="money">10K-20K</div>
-					<div class="years">北京&nbsp;|&nbsp;1-3年&nbsp;|&nbsp;本科 <span class="fr">互联网</span></div>
-				</div>
-			</div>
-			<a href="#"><div class="all">全部职位</div></a>
-		</div>
-		<div class="clear"></div>
 	</div>
-
 	<div class="bottom">
 		<div class="boss">BOSS直聘</div>
 		<div class="add">Copyright © 2017 zhipin.com 北京华品博睿网络技术有限公司 京ICP备14013441号-5</div>
-	</div>
 	</div>
 	
 </body>
